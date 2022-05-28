@@ -10,12 +10,11 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
   <body>
-    <div
-      id="root"
-      class="d-flex flex-column justify-content-between vh-100 w-100"
-    >
+    <div id="root" class="min-vh-100 d-flex flex-column bg-body">
+
       <header class="">
         <nav class="navbar navbar-expand-lg bg-light">
           <div class="container-fluid d-flex justify-content-center">
@@ -41,42 +40,79 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">Inteligencia Artificial</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link">Disabled</a>
-                </li>
               </ul>
             </div>
           </div>
         </nav>
       </header>
 
-      <main class="flex-grow-1 ">
+      <main class=" h-100 ">
         <section class="container h-100">
-          <div class="row h-100">
-            <div class="col-6  h-100 d-flex flex-column align-text-center justify-content-center" id="texto">
-              <h2><img src="nto.png" width="250" alt="imagem do grupo"></h2>
-              <P>Somos estudantes da Universidade São Judas Tadeus. Estamos cursando Analise de Big date e Inteligencia artificial, e o projeto do semestre prosposto pelos professores é  escolher um Data set e fazer a analise de dados desse data set</P>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores deleniti quibusdam hic iste saepe a distinctio atque sed possimus laboriosam nulla aliquam recusandae, labore impedit expedita nisi architecto dolores!</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, totam? Cupiditate, amet expedita ipsum magnam neque iusto illum dolor? Recusandae explicabo omnis commodi ab vitae dicta dignissimos consequuntur nulla iusto?</p>
+          <div class="row">
+              <div class="col-12 col-md-6 d-flex flex-column align-text-center justify-content-center" id="texto">
+                <h2>Projeto A3</h2>
+                <P>Somos estudantes da Universidade São Judas Tadeus. Estamos cursando Analise de Big date e Inteligencia artificial, e o projeto do semestre prosposto pelos professores é  escolher um Data set e fazer a analise de dados desse data set</P>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maiores deleniti quibusdam hic iste saepe a distinctio atque sed possimus laboriosam nulla aliquam recusandae, labore impedit expedita nisi architecto dolores!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, totam? Cupiditate, amet expedita ipsum magnam neque iusto illum dolor? Recusandae explicabo omnis commodi ab vitae dicta dignissimos consequuntur nulla iusto?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, totam? Cupiditate, amet expedita ipsum magnam neque iusto illum dolor? Recusandae explicabo omnis commodi ab vitae dicta dignissimos consequuntur nulla iusto?</p>
+              </div>
+              <div class="col-12 col-md-6 d-flex flex-column align-text-center justify-content-center">
+                <img src="nto.png" width="100%" height="40%" alt="">
+                <img src="usjt.png" alt="">
+              </div>
             </div>
-            <div class="col-6 bg-danger h-100">
-              <h1>world</h1>
-            </div>
-          </div>
         </section>
       </main>
-
-      <footer class="bg-light text-center text-lg-start">
-        <div class="text-center p-3">
-          © 2020 Copyright:
-          <a class="text-dark">Guilherme Eubank</a>
+      
+      <div class="container mt-5">
+        <div class="row">
+          <h2 class="m-5 text-center m-5" >Analise de Dados e Big data</h2>
+          <div class="col-12 col-md-6">
+            <canvas id="sistemasUnidos" height="200" ></canvas>
+          </div>
+          <div class="col-12 col-md-6 ">
+            <canvas id="sistemasJuntoss" height="200" ></canvas>
+          </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 col-md-12 m-5">
+              <canvas id="EstilosMaisJogados"></canvas>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-12 m-5">
+            <canvas id="oi"></canvas>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 m-5">
+            <canvas id="datadelancamento"></canvas>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+   
+      <footer class="bg-dark p-2">
+        <div class="container">
+          <div class="row">
+            <p class="col-12 col-sm-12 m-2 text-white text-center">Diretos reservado Guilherme Eubank</p>
+          </div>
         </div>
       </footer>
+
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    
+    <script src="graficoSistema.js"></script>
+    <script src="graficoSistemasJuntos.js"></script>
+    <script src="generosMaisJogados.js"></script>
+    <script src="dataDelancamento.js"></script>
+    <script src="price.js"></script>
   </body>
 </html>
