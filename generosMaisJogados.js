@@ -17,7 +17,7 @@ const labelsjogos = [
     labels: labelsjogos,
     datasets: [{
       label: [
-        'Red',
+        
         
     ],
       backgroundColor: ['#03071e', '#370617', '#6a040f', '#9d0208','#d00000', '#dc2f02','#e85d04', '#f48c06','#faa307'],
@@ -33,7 +33,7 @@ const labelsjogos = [
       plugins: {
         title: {
             display: true,
-            text: 'Gráfico com generos mais jogados '
+            text: 'Gráfico dos generos mais jogados'
         }
     }
     }

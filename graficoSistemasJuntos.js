@@ -7,7 +7,7 @@ const labelsj = [
   const dataj = {
     labels: labelsj,
     datasets: [{
-      label: 'Gráfico de jogos feitos para mais de um sistemas operacional',
+      label: [],
       backgroundColor: ['#c1121f','#780000','#8ac926'],
       borderColor: 'rgb(255, 199, 132)',
       data: [9246,6878,1220],
@@ -17,7 +17,14 @@ const labelsj = [
   const configj = {
     type: 'bar',
     data: dataj,
-    options: {}
+    options: {
+      plugins: {
+        title: {
+            display: true,
+            text: 'Gráfico dos jogos feitos para mais de um sistemas operacional'
+        }
+    }
+    }
   };
 
   const myChart = new Chart(

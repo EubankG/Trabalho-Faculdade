@@ -29,10 +29,7 @@ const lab1elslancamento = [
   const datalancamento = {
     labels: lab1elslancamento,
     datasets: [{
-      label: [
-        'Red',
-        
-    ],
+      label: [],
       backgroundColor: ['#03071e', '#370617', '#6a040f', '#9d0208','#d00000', '#dc2f02','#e85d04', '#f48c06','#faa307'],
       borderColor: 'rgb(255, 99, 132)',
       data: [1,1,2,1,3,1,3,5,6,32,45,83,144,127,135,170,178,249,267,336,351,362,117],
