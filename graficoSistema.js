@@ -17,7 +17,14 @@ const labelss = [
   const configs = {
     type: 'bar',
     data: datas,
-    options: {}
+    options: {
+      plugins: {
+        title: {
+            display: true,
+            text: 'Gráfico dos jogos feitos para um unico sistema'
+        }
+    }
+    }
   };
   
   
