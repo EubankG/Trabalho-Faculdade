@@ -33,7 +33,7 @@ const labelsjogos = [
       plugins: {
         title: {
             display: true,
-            text: 'Gráfico dos género mais jogados'
+            text: 'Gráfico dos gênero mais jogados'
         }
     }
     }

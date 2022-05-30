@@ -21,7 +21,7 @@ const labelsj = [
       plugins: {
         title: {
             display: true,
-            text: 'Gráfico dos jogos feitos para mais de um sistemas operacional'
+            text: 'Gráfico dos jogos feitos para mais de um sistema operacional'
         }
     }
     }

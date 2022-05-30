@@ -43,7 +43,7 @@ const lab1elslancamento = [
       plugins: {
         title: {
             display: true,
-            text: 'Quantidade de jogos lançados por anos '
+            text: 'Quantidade de jogos lançados por ano '
         }
     }
     }

@@ -21,7 +21,7 @@ const labelss = [
       plugins: {
         title: {
             display: true,
-            text: 'Gráfico dos jogos feitos para um unico sistema'
+            text: 'Gráfico dos jogos feitos para um único sistema'
         }
     }
     }
